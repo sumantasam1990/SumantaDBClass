@@ -11,10 +11,10 @@ Author Name: Sumanta Kundu
   private $password = '';
   private $dbname = 'shop';
   
-  private $con;
-  private $table;
-  private $row = array();
-  private $data = array();
+  public $con;
+  public $table;
+  public $row = array();
+  public $data = array();
 
   public function __construct() {
     $this->con = mysqli_connect($this->host,$this->user,$this->password,$this->dbname);
@@ -35,5 +35,3 @@ Author Name: Sumanta Kundu
     }
   }
 }
-
-
