@@ -6,17 +6,8 @@ Example:
 2. extends DBClass into your child class.
 3. $this->selectResults('table_name'); // for select query.
 
-include 'dbClass.php';
-class MyClass extends DBClass {
+$this->selectResults('product');
 
-  public function getProduct() {
+selectResults for select query.
 
-    $data = $this->selectResults('product');
-	echo '<pre>';
-	print_r($data);
-  }
-}
-
-$myobj = new MyClass;
-$myobj->getProduct();
-
+In Progress...
