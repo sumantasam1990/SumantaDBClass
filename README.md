@@ -6,7 +6,7 @@ Example:
 2. extends DBClass into your child class.
 3. $this->selectResults('table_name'); // for select query.
 
-$this->selectResults('product');
+   $this->selectResults('product');
 
 selectResults for select query.
 
