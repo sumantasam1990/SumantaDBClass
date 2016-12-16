@@ -8,6 +8,6 @@ Example:
 
      $this->selectResults('product');
 
-selectResults for select query.
+selectResults('table_name') for select query.
 
 In Progress...
