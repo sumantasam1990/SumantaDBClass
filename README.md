@@ -9,6 +9,7 @@ Example:
 
 3. $this->selectResults('table_name'); // for select query.
 
+
      $this->selectResults('product');
 
 selectResults('table_name') for select query.
