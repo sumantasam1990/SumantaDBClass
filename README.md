@@ -11,6 +11,7 @@ Example:
 
 
 include 'dbClass.php';
+
 use \DBClassNamespace\DBClass;
 
 class MyClass extends DBClass {
