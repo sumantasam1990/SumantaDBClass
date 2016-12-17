@@ -9,23 +9,4 @@ Example:
 4. $this->selectResults('table_name'); // for select query.
 
 
-
-include 'dbClass.php';
-
-use \DBClassNamespace\DBClass;
-
-class MyClass extends DBClass {
-
-  public function getProduct() {
-
-    $data = $this->selectResults('product');
-	echo '<pre>';
-	print_r($data);
-  }
-}
-
-$myobj = new MyClass;
-$myobj->getProduct();
-
-
 In Progress...
