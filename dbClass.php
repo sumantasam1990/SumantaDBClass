@@ -5,6 +5,7 @@ Class Name: DB Class
 Author Name: Sumanta Kundu
 *
 */
+namespace DBClassNamespace;
  class DBClass {
   private $host = 'localhost';
   private $user = 'root';
