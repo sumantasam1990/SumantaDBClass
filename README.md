@@ -1,5 +1,5 @@
 # SumantaDBClass
-You can use dbClass for CRUD Operations.
+You can boost your CRUD Operations using dbClass.
 
 Example: 
 
