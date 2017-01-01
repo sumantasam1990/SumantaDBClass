@@ -49,7 +49,7 @@ namespace DBClassNamespace;
     foreach ($insertVal as $key => $value) {
       $instvalue .= '"' . addslashes($value) .'"' . ', ';
     }
-    //remove comma from last key
+    //remove comma from end of the string
     $insertColumns = substr($columns, 0, -2);
     $values = substr($instvalue, 0, -2);
     //main insert query
