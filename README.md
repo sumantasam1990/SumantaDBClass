@@ -6,7 +6,10 @@ Example:
 1. First you need to include the class.
 2. use \DBClassNamespace\DBClass; // Call the namespace for preventing naming collisons.
 3. extends DBClass into your child class.
-4. $this->selectResults('table_name'); // for select query.
 
+ For select statement: 
+ $this->selectResults('your query');
+ For Insert Data: 
+ $this->insertData('table name', array('column_name' => 'value'));
 
 In Progress...
