@@ -9,6 +9,7 @@ Example:
 
  For select statement: 
  $this->selectResults('your query');
+ 
  For Insert Data: 
  $this->insertData('table name', array('column_name' => 'value'));
 
