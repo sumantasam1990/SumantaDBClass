@@ -8,10 +8,10 @@ Version: 1.0
 */
 namespace DBClassNamespace;
  class DBClass {
-  private $host = 'localhost';
-  private $user = 'root';
-  private $password = '';
-  private $dbname = 'shop';
+  private $host = 'db_host';
+  private $user = 'db_username';
+  private $password = 'db_password';
+  private $dbname = 'db_name';
 
   private $con;
   private $query;
